@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +23,7 @@ img {
   display: block;
 }
 
-/* Header and Navbar */
+
 header {
   position: fixed;
   width: 100%;
@@ -63,7 +63,7 @@ nav {
   color: #0077b6;
 }
 
-/* Hero Section */
+
 .hero {
   height: 100vh;
   background: url('imagebg.png') no-repeat center center/cover;
@@ -89,7 +89,7 @@ nav {
   cursor: pointer;
 }
 
-/* Sections */
+
 section {
   padding: 4rem 2rem;
 }
@@ -111,7 +111,6 @@ section {
   color: #666;
 }
 
-/* Destination Cards */
 .destination__grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -135,7 +134,7 @@ section {
   color: #FFD700;
 }
 
-/* Packages */
+
 .package-cards {
   display: flex;
   flex-wrap: wrap;
@@ -152,7 +151,6 @@ section {
   text-align: center;
 }
 
-/* Testimonials */
 .testimonials {
   background-color: #f0f0f0;
   text-align: center;
@@ -170,7 +168,7 @@ section {
   margin-top: 1rem;
 }
 
-/* Contact */
+
 .contact form {
   max-width: 600px;
   margin: auto;
@@ -186,7 +184,7 @@ section {
   border-radius: 8px;
 }
 
-/* Footer */
+
 footer {
   background-color: #0077b6;
   color: white;
@@ -194,9 +192,7 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
-/* ------------------------- */
-/* Button Styling & Effects */
-/* ------------------------- */
+
 .btn {
   display: inline-block;
   padding: 0.8rem 1.8rem;
@@ -216,9 +212,6 @@ footer {
   box-shadow: 0 8px 20px rgba(0, 119, 182, 0.3);
 }
 
-/* ------------------------- */
-/* Hover Effects on Cards   */
-/* ------------------------- */
 .destination__card,
 .package-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -230,9 +223,7 @@ footer {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* ------------------------- */
-/* Swiper Slider Enhancements */
-/* ------------------------- */
+
 .swiper-slide {
   opacity: 0.9;
   transition: opacity 0.4s ease;
@@ -242,17 +233,12 @@ footer {
   opacity: 1;
 }
 
-/* ------------------------- */
-/* Form Button Hover        */
-/* ------------------------- */
 .contact button.btn:hover {
   background-color: #0096c7;
   transform: scale(1.05);
 }
 
-/* ------------------------- */
-/* Responsive Media Queries */
-/* ------------------------- */
+
 @media screen and (max-width: 768px) {
   nav {
     flex-direction: column;
