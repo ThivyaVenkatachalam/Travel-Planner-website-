@@ -135,25 +135,23 @@
 
   <script>
     document.getElementById('contactForm').addEventListener('submit', function (e) {
-    e.preventDefault(); // Prevent form from reloading the page
-
-    // Grab values
-    const name = this.name.value.trim();
+    e.preventDefault();
+      const name = this.name.value.trim();
     const email = this.email.value.trim();
     const message = this.message.value.trim();
 
-    // Validate basic input (optional, can expand)
+
     if (!name || !email || !message) {
       document.getElementById('formMessage').textContent = "Please fill out all fields.";
       document.getElementById('formMessage').style.color = "red";
       return;
     }
 
-    // Simulate sending (demo)
+    
     document.getElementById('formMessage').textContent = `Thank you, ${name}! Your message has been sent.`;
     document.getElementById('formMessage').style.color = " rgb(68, 151, 219);";
 
-    // Clear the form
+    
     this.reset();
   });
     AOS.init({ duration: 1200 });
